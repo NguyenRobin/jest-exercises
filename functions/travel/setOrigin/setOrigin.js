@@ -1,4 +1,4 @@
-const countriesList = require('./countriesList');
+const countriesList = require('../countriesList');
 
 const setOrigin = (origin) => {
   if (origin === '') return false;
@@ -15,4 +15,5 @@ const setOrigin = (origin) => {
     }
   }
 };
+
 module.exports = setOrigin;

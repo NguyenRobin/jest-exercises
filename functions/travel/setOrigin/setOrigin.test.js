@@ -1,5 +1,9 @@
 const setOrigin = require('./setOrigin');
 
+test('if user enter valid origin', () => {
+  expect(setOrigin('italy')).toBe(true);
+});
+
 test('if user enter origin in upper and lowercase', () => {
   expect(setOrigin('SWEden')).toBe(true);
 });
