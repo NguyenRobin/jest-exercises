@@ -26,9 +26,6 @@ const convertIntToRoman = (num) => {
   return romanOutput;
 };
 
-const result = convertIntToRoman(15);
-console.log(result);
-
 /*
 Explanation: 
 
